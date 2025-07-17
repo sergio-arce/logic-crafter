@@ -5,12 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
-  '@types/node':
-    specifier: ^24.0.14
-    version: 24.0.14
   jest:
     specifier: ^30.0.4
-    version: 30.0.4(@types/node@24.0.14)
+    version: 30.0.4
 
 packages:
 
@@ -1542,7 +1539,7 @@ packages:
       - supports-color
     dev: true
 
-  /jest-cli@30.0.4(@types/node@24.0.14):
+  /jest-cli@30.0.4:
     resolution: {integrity: sha512-3dOrP3zqCWBkjoVG1zjYJpD9143N9GUCbwaF2pFF5brnIgRLHmKcCIw+83BvF1LxggfMWBA0gxkn6RuQVuRhIQ==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
@@ -1895,7 +1892,7 @@ packages:
       supports-color: 8.1.1
     dev: true
 
-  /jest@30.0.4(@types/node@24.0.14):
+  /jest@30.0.4:
     resolution: {integrity: sha512-9QE0RS4WwTj/TtTC4h/eFVmFAhGNVerSB9XpJh8sqaXlP73ILcPcZ7JWjjEtJJe2m8QyBLKKfPQuK+3F+Xij/g==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
@@ -1908,7 +1905,7 @@ packages:
       '@jest/core': 30.0.4
       '@jest/types': 30.0.1
       import-local: 3.2.0
-      jest-cli: 30.0.4(@types/node@24.0.14)
+      jest-cli: 30.0.4
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
