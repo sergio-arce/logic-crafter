@@ -1,6 +1,5 @@
 import { isPalindrome } from './index';
 
-
 describe('palindrome', () => {
 
   const testCases = [

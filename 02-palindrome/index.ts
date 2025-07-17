@@ -1,10 +1,6 @@
 /**
 * 9. Palindrome Number
 *   Easy
-*   Topics
-*   premium lock icon
-*   Companies
-*   Hint
 *   Given an integer x, return true if x is a palindrome, and false otherwise.
 *   
 *  Example 1:
