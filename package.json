@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "node --watch ./01-two-sum/index.js",
+    "dev": "ts-node-dev --respawn ./01-two-sum/index.ts",
     "test": "jest --watch two-sum",
     "coverage": "jest --coverage"
   },
@@ -12,6 +12,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "jest": "^30.0.4"
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.14",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
   }
 }

@@ -1,5 +1,4 @@
-
-const twoSum = require(".")
+import { twoSum } from './index';
 
 describe('Two Sum', () => {
   it('should return indices [0, 1] for input [2, 7, 11, 15] and target 9', () => {

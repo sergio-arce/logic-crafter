@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[] | undefined}
  */
-function twoSum(nums, target) {
+export function twoSum(nums: number[], target: number): [number, number] | undefined {
   const arr = new Map()
 
   for (let i = 0; i < nums.length; i++) {
@@ -16,8 +16,6 @@ function twoSum(nums, target) {
     arr.set(nums[i], i)
   }
 }
-
-module.exports = twoSum
 
 
 
