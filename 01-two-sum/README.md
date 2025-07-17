@@ -1,7 +1,6 @@
 # 1. Two Sum
 
 > **Difficulty:** Easy  
-> **Tags:** 🧠 Topics 🔶 Companies 💡 Hint
 
 ---
 
