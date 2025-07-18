@@ -10,7 +10,7 @@
 </div>
 
 
-## 🧩 [Challenges Catalog](https://leetcode.com/problemset/algorithms/)
+## 🧩 [Challenges Catalog](https://leetcode.com/problemset/algorithms/){:target="_blank_}
 <details open>
 <summary>Show / Hide</summary>
 
