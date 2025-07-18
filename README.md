@@ -9,8 +9,8 @@
   <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" alt="ESLint">
 </div>
 
+## 🧩 <a href="https://leetcode.com/problemset/algorithms/" target="_blank">Challenges Catalog</a>
 
-## 🧩 [Challenges Catalog](https://leetcode.com/problemset/algorithms/){:target="_blank_}
 <details open>
 <summary>Show / Hide</summary>
 
@@ -18,6 +18,7 @@
 |-----|-----------|------------|----------|-----------------|------------------|
 | 01 | [Two Sum](https://leetcode.com/problems/two-sum) | 🟢 Easy | [View](01-two-sum/index.ts) | O(n) | O(n) |
 | 09 | [Palindrome](https://leetcode.com/problems/palindrome-number) | 🟢 Easy | [View](09-palindrome/index.ts) | O(n) | O(n) |
+| 09 | [Roman to integer](https://leetcode.com/problems/roman-to-integer) | 🟢 Easy | [View](13-roman-to-integer/index.ts) | O(n) | O(n) |
 
 </details>
 

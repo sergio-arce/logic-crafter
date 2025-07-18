@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn ./02-palindrome/index.ts",
-    "test": "jest --watch palindrome",
+    "dev": "ts-node-dev",
+    "test": "jest --watch 13-roman-to-integer",
     "coverage": "jest --coverage"
   },
   "keywords": [],
