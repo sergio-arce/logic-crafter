@@ -28,47 +28,53 @@
  * @return {number[] | undefined}
  */
 export function twoSum(nums: number[], target: number): [number, number] | undefined {
-  const arr = new Map()
+  const obj: Record<string, number> = {}
 
   for (let i = 0; i < nums.length; i++) {
-    const diff = target - nums[i];
-
-    if (arr.has(diff)) {
-      return [arr.get(diff), i]
+    const diff = target - nums[i]
+    
+    if (obj.hasOwnProperty(diff)) {
+      return [obj[diff], i ]
     }
 
-    arr.set(nums[i], i)
+    obj[nums[i]] = i
   }
 }
 
+// ----------  Map --------------
+
+// export function twoSum(nums: number[], target: number): [number, number] | undefined {
+//   const arr = new Map()
+
+//   for (let i = 0; i < nums.length; i++) {
+//     const diff = target - nums[i];
+
+//     if (arr.has(diff)) {
+//       return [arr.get(diff), i]
+//     }
+
+//     arr.set(nums[i], i)
+//   }
+// }
 
 
 
 
+// ----------  Set --------------
 
-
-
-
-
-
-
-/**
- * use Set 
- */
 // function twoSum(nums, target) {
-//   const seen = new Set();
+//   const set = new Set();
 //   const valueToIndex = {};
 
 //   for (let i = 0; i < nums.length; i++) {
 //     const num = nums[i];
 //     const complement = target - num;
 
-//     console.log(i, seen.has(complement))
-//     if (seen.has(complement)) {
+//     if (set.has(complement)) {
 //      return [valueToIndex[complement], i];
 //     }
 
-//     seen.add(num);
+//     set.add(num);
 //     valueToIndex[num] = i;
 //   }
 
