@@ -4,7 +4,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "ts-node-dev",
-    "test": "jest --watch 09-palindrome",
+    "test": "jest --watch 20-valid-parentheses",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand 20-valid-parentheses/index.test.ts",
     "coverage": "jest --coverage"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "@types/node": "^24.0.14",
     "jest": "^30.0.4",
     "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   }
