@@ -4,8 +4,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "ts-node-dev",
-    "test": "jest --watch 20-valid-parentheses",
-    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand 20-valid-parentheses/index.test.ts",
+    "test": "jest --watch 21-merge-two-sorted-lists",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand 21-merge-two-sorted-lists/index.test.ts",
     "coverage": "jest --coverage"
   },
   "keywords": [],
