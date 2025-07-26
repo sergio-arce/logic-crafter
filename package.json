@@ -4,8 +4,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "ts-node-dev",
-    "test": "jest --watch 21-merge-two-sorted-lists",
-    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand 21-merge-two-sorted-lists/index.test.ts",
+    "test": "jest --watch 26-remove-diplicate-from-sorted-array",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand 26-remove-diplicate-from-sorted-array/index.test.ts",
     "coverage": "jest --coverage"
   },
   "keywords": [],

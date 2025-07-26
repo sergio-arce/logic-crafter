@@ -12,7 +12,6 @@
         "--no-cache",
         "--config",
         "${workspaceFolder}/jest.config.js",
-        "${workspaceFolder}/20-valid-parentheses/index.test.ts"
       ],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"

@@ -22,6 +22,7 @@
 | 14 | [Longest common prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | [View](14-longest-common-prefix/index.ts) | O(S) | O(1) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | [View](20-valid-parentheses/index.ts) | O(S) | O(1) |
 | 21 | [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | [View](21-merge-two-sorted-lists/index.ts) | O(n + m) | O(1) |
+| 26 | [Remove duplicate from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | [View](26-remove-duplicate-from-sorted-array/index.ts) | O(n) | O(1) |
 
 </details>
 
