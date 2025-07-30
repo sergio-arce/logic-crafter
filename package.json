@@ -4,8 +4,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "ts-node-dev",
-    "test": "jest --watch 26-remove-diplicate-from-sorted-array",
-    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand 26-remove-diplicate-from-sorted-array/index.test.ts",
+    "test": "jest --watch 27-remove-element",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand 27-remove-element/index.test.ts",
     "coverage": "jest --coverage"
   },
   "keywords": [],
