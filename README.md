@@ -24,6 +24,7 @@
 | 21 | [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | [View](21-merge-two-sorted-lists/index.ts) | O(n + m) | O(1) |
 | 26 | [Remove duplicate from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | [View](26-remove-duplicate-from-sorted-array/index.ts) | O(n) | O(1) |
 | 27 | [Remove element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | [View](27-remove-element/index.ts) | O(n) | O(1) |
+| 28 | [Find the index of the first occurrence in a string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 Easy | [View](28-find-the-index-of-the-first-occurrence-in-a-string/index.ts) | O((n - m) * m) | O(1) |
 
 </details>
 
