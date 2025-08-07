@@ -24,9 +24,8 @@ describe('merge two sorted lists', () => {
   test('should returns the non-empty list when one input is empty', () => {
     const list2 = new ListNode(0)
     const merged = mergeTwoLists(null, list2)
-    
+
     expect(merged?.val).toBe(0)
     expect(merged?.next).toBeNull()
   })
-
 })

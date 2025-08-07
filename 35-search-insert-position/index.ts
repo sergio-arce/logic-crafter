@@ -29,14 +29,13 @@ export function searchInsert(nums: number[], target: number): number {
     const mid = Math.floor((left + right) / 2)
 
     if (nums[mid] === target) return mid
-    
+
     if (nums[mid] < target) {
       left = mid + 1 // find right
     } else {
       right = mid - 1 // find left
     }
-
   }
 
   return left
-};
+}

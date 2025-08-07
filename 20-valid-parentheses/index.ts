@@ -39,29 +39,27 @@
  * @param {string} s
  * @return {boolean}
  */
-export function validParentheses(s:  string): boolean {
-
-  const  stack: string[] = []
+export function validParentheses(s: string): boolean {
+  const stack: string[] = []
 
   const pairs: Record<string, string> = {
     ')': '(',
     '}': '{',
-    ']': '['
+    ']': '[',
   }
 
   for (const char of s) {
     if (pairs[char]) {
       // Si encontramos un cierre, verificamos que coincida con el último abierto
       if (stack.pop() !== pairs[char]) {
-        return false;
+        return false
       }
     } else {
       // Si es una apertura, la agregamos a la pila
-      stack.push(char);
+      stack.push(char)
     }
   }
 
   // La pila debe estar vacía al final
-  return stack.length === 0;
-};
-
+  return stack.length === 0
+}

@@ -42,13 +42,12 @@
  * @param {number[]} nums
  * @return {number}
  */
-export function removeDuplicates(nums: number[]):number {
+export function removeDuplicates(nums: number[]): number {
   if (nums.length === 0) return 0
 
   let k = 1
 
   for (let i = 1; i < nums.length; i++) {
-    
     if (nums[k - 1] !== nums[i]) {
       nums[k] = nums[i]
       ++k

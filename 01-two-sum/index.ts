@@ -27,14 +27,17 @@
  * @param {number} target
  * @return {number[] | undefined}
  */
-export function twoSum(nums: number[], target: number): [number, number] | undefined {
+export function twoSum(
+  nums: number[],
+  target: number,
+): [number, number] | undefined {
   const obj: Record<string, number> = {}
 
   for (let i = 0; i < nums.length; i++) {
     const diff = target - nums[i]
-    
-    if (obj.hasOwnProperty(diff)) {
-      return [obj[diff], i ]
+
+    if (diff in obj) {
+      return [obj[diff], i]
     }
 
     obj[nums[i]] = i
@@ -56,9 +59,6 @@ export function twoSum(nums: number[], target: number): [number, number] | undef
 //     arr.set(nums[i], i)
 //   }
 // }
-
-
-
 
 // ----------  Set --------------
 

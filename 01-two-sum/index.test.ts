@@ -1,4 +1,4 @@
-import { twoSum } from './index';
+import { twoSum } from './index'
 
 describe('Two Sum', () => {
   it('should return indices [0, 1] for input [2, 7, 11, 15] and target 9', () => {
@@ -22,7 +22,6 @@ describe('Two Sum', () => {
   })
 
   it('should return indices [1, 2] for input [-3, 4, 7] and target 11', () => {
-    expect(twoSum([-3, 4, 7], 11)).toEqual([1,  2]);
-  });
-
+    expect(twoSum([-3, 4, 7], 11)).toEqual([1, 2])
+  })
 })

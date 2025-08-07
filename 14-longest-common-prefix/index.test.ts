@@ -1,10 +1,9 @@
 import { longestCommonPrefix } from './index'
 
 describe('longest common prefix', () => {
-
   const testCases = [
-    { input: ["flower", "flow", "flight"], expected: 'fl' },
-    { input: ["dog", "racecar", "car"], expected: '' },
+    { input: ['flower', 'flow', 'flight'], expected: 'fl' },
+    { input: ['dog', 'racecar', 'car'], expected: '' },
     { input: [], expected: '' },
   ]
 
@@ -13,5 +12,4 @@ describe('longest common prefix', () => {
       expect(longestCommonPrefix(input)).toBe(expected)
     })
   })
-
 })

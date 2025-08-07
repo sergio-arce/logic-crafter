@@ -45,8 +45,7 @@
  * @return {number}
  */
 
-export function romanToInt(s: string):number {
-
+export function romanToInt(s: string): number {
   const simbolValues: Record<string, number> = {
     I: 1,
     V: 5,
@@ -56,12 +55,11 @@ export function romanToInt(s: string):number {
     D: 500,
     M: 1000,
   }
-  
+
   let total = 0
   const validSimbols = Object.keys(simbolValues)
 
   for (let i = 0; i < s.length; i++) {
-
     if (!validSimbols.includes(s[i])) {
       throw new Error('Invalid roman numeral')
     }
@@ -71,11 +69,10 @@ export function romanToInt(s: string):number {
 
     if (next > current) {
       total += next - current
-      i++      
+      i++
     } else {
       total += current
     }
-
   }
 
   return total

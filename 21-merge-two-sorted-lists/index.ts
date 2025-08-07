@@ -31,7 +31,6 @@
 
 */
 
-
 export interface ListNode {
   val: number
   next: ListNode | null
@@ -41,11 +40,12 @@ export interface ListNode {
 export const ListNode = function (
   this: ListNode,
   val?: number,
-  next?: ListNode | null
+  next?: ListNode | null,
 ) {
   this.val = val === undefined ? 0 : val
   this.next = next === undefined ? null : next
-} as any 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+} as any
 
 /**
  * @param {ListNode} list1
@@ -54,13 +54,12 @@ export const ListNode = function (
  */
 
 export function mergeTwoLists(
-  list1: ListNode | null, 
-  list2: ListNode | null
+  list1: ListNode | null,
+  list2: ListNode | null,
 ): ListNode | null {
-
   const dummy = new ListNode()
   let current = dummy
-  
+
   while (list1 !== null && list2 !== null) {
     if (list1.val <= list2.val) {
       current.next = list1
@@ -71,8 +70,8 @@ export function mergeTwoLists(
     }
     current = current.next
   }
-  
+
   current.next = list1 !== null ? list1 : list2
-  
+
   return dummy.next
 }

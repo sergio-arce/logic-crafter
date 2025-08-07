@@ -23,14 +23,13 @@
  * @return {string}
  */
 export function longestCommonPrefix(strs: string[]): string {
+  if (strs.length === 0) return ''
 
-  if (strs.length === 0) return '' 
-  
   let prefix = ''
   const firstWord = strs[0]
-  
+
   for (let i = 0; i < firstWord.length; i++) {
-    const firstChar = firstWord[i];
+    const firstChar = firstWord[i]
 
     for (let j = 0; j < strs.length; j++) {
       // Condición crítica: verifica dos casos:
@@ -41,7 +40,6 @@ export function longestCommonPrefix(strs: string[]): string {
       if (i >= strs[j].length || strs[j][i] != firstChar) {
         return prefix // Si alguna condición falla, retornamos el prefijo acumulado
       }
-      
     }
     // Si todos los caracteres coincidieron, añadimos el carácter al prefijo
     prefix += firstChar
