@@ -1,0 +1,34 @@
+{
+  "eslint.run": "onSave",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // MUY IMPORTANTE: Asegúrate de que ESLint sea el formateador por defecto
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Aquí es donde deshabilitas Prettier para evitar conflictos
+  "prettier.enable": false, // <-- ¡AÑADE O CAMBIA ESTA LÍNEA!
+  "prettier.requireConfig": true, // Esto no afecta si prettier.enable es false
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ], // ESLint se ejecutará en estos lenguajes
+
+  // Si usas TypeScript, asegúrate de que también se formatee con ESLint
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint" // Asegura ESLint también para TSX
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint" // Asegura ESLint también para TS
+  },
+  // Elimina o cambia esta sección para que no use Prettier para JS/JSX
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features" // Cambia a ESLint aquí
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features" // Y aquí para JS puro
+  }
+}
