@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "ts-node-dev",
-    "test": "jest --watch 35-search-insert-position",
+    "test": "jest --watch",
     "test:ci": "jest --watchAll=false",
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand 35-search-insert-position/index.test.ts",
     "coverage": "jest --coverage",

@@ -26,6 +26,7 @@
 | 27 | [Remove element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | [View](27-remove-element/index.ts) | O(n) | O(1) |
 | 28 | [Find the index of the first occurrence in a string](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 🟢 Easy | [View](28-find-the-index-of-the-first-occurrence-in-a-string/index.ts) | O((n - m) * m) | O(1) |
 | 35 | [Search insert position](https://leetcode.com/problems/search-insert-position/description/) | 🟢 Easy | [View](35-search-insert-position/index.ts) | O(logn) | O(1) |
+| 58 | [Length of las word](https://leetcode.com/problems/length-of-last-word/description/) | 🟢 Easy | [View](58-length-of-last-word/index.ts) | O(n) | O(1) |
 
 </details>
 
