@@ -9,7 +9,8 @@
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand 35-search-insert-position/index.test.ts",
     "coverage": "jest --coverage",
     "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
-    "lint:fix": "eslint \"**/*.{js,jsx,ts,tsx}\" --fix"
+    "lint:fix": "eslint \"**/*.{js,jsx,ts,tsx}\" --fix",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
+    "husky": "^9.1.7",
     "jest": "^30.0.4",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
