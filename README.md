@@ -28,6 +28,7 @@
 | 35 | [Search insert position](https://leetcode.com/problems/search-insert-position/description/) | 🟢 Easy | [View](35-search-insert-position/index.ts) | O(logn) | O(1) |
 | 58 | [Length of las word](https://leetcode.com/problems/length-of-last-word/description/) | 🟢 Easy | [View](58-length-of-last-word/index.ts) | O(n) | O(1) |
 | 66 | [Plus one](https://leetcode.com/problems/plus-one/description/) | 🟢 Easy | [View](66-plus-one/index.ts) | O(n) | O(1) ó O(n) |
+| 67 | [Add binary](https://leetcode.com/problems/add-binary/) | 🟢 Easy | [View](67-add-binary/index.ts) | O(max(n,m)) | O(max(n,m)) |
 
 </details>
 
