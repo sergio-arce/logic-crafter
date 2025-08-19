@@ -30,6 +30,7 @@
 | 66 | [Plus one](https://leetcode.com/problems/plus-one/description/) | 🟢 Easy | [View](challenges/66-plus-one/index.ts) | O(n) | O(1) ó O(n) |
 | 67 | [Add binary](https://leetcode.com/problems/add-binary/) | 🟢 Easy | [View](challenges/67-add-binary/index.ts) | O(max(n,m)) | O(max(n,m)) |
 | 69 | [Sqrt](https://leetcode.com/problems/sqrtx/description/) | 🟢 Easy | [View](challenges/69-sqrt/index.ts) | O(log n) | O(1) |
+| 70 | [Climbing stairs](https://leetcode.com/problems/climbing-stairs/description/) | 🟢 Easy | [View](challenges/70-climbing-stairs/index.ts) | O(n) | O(1) |
 
 </details>
 
