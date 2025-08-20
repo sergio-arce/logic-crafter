@@ -27,15 +27,31 @@
 export function climbStairs(n: number): number {
   if (n <= 2) return n
 
-  let oneStep = 1
-  let twoSteps = 2
+  let prev = 1
+  let current = 2
 
   for (let step = 3; step <= n; step++) {
-    const current = oneStep + twoSteps
+    const next = prev + current
 
-    oneStep = twoSteps
-    twoSteps = current
+    prev = current
+    current = next
   }
 
-  return twoSteps
+  return current
 }
+
+/**
+ * Destructuring version
+export function climbStairs(n: number): number {
+  if (n <= 2) return n
+
+  let [a, b] = [1, 2]
+
+  for (let i = 3; i <= n; i++) {
+    [a, b] = [b, a + b]
+  }
+
+  return b
+}
+ * 
+ */
