@@ -20,7 +20,7 @@ import { ListNode } from '../../data-structures/list-node'
 export function deleteDuplicates(head: ListNode | null): ListNode | null {
   if (head === null || head.next === null) return head
 
-  let current = head
+  let current = head // we create a pointer to travel without losing our minds
 
   while (current !== null && current.next !== null) {
     if (current.val === current.next.val) {

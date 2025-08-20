@@ -31,27 +31,7 @@
 
 */
 
-export interface ListNode {
-  val: number
-  next: ListNode | null
-}
-
-// ListNode.ts
-export const ListNode = function (
-  this: ListNode,
-  val?: number,
-  next?: ListNode | null,
-) {
-  this.val = val === undefined ? 0 : val
-  this.next = next === undefined ? null : next
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-} as any
-
-/**
- * @param {ListNode} list1
- * @param {ListNode} list2
- * @return {ListNode}
- */
+import { ListNode } from '../../data-structures/list-node'
 
 export function mergeTwoLists(
   list1: ListNode | null,
